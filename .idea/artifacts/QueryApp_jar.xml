@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="QueryApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QueryApp_jar</output-path>
+    <root id="root">
+      <element id="archive" name="QueryApp.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="QueryApp" />
+      </element>
+      <element id="library" level="project" name="com.microsoft.azure:azure-storage:4.0.0" />
+      <element id="library" level="project" name="com.microsoft.azure:azure-core:0.9.7" />
+    </root>
+  </artifact>
+</component>
